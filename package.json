@@ -1,0 +1,40 @@
+{
+  "name": "suricata",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Guilherme Reginaldo Ruella <potentii@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "mongoose",
+    "connection",
+    "pool",
+    "scope",
+    "manager"
+  ],
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Potentii/Suricata.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Potentii/Suricata/issues"
+  },
+  "homepage": "https://github.com/Potentii/Suricata#readme",
+  "files": [
+    "main.js",
+    "README.md",
+    "LICENSE.txt",
+    "libs/",
+    "docs/"
+  ],
+  "dependencies": {
+    "mongoose": "^4.11.5"
+  },
+  "devDependencies": {
+  }
+}
